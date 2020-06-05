@@ -35,6 +35,6 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./build project001.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build zainproject001.surge.sh --token ${{ secrets.SURGE_TOKEN }}
           
           
